@@ -1,0 +1,47 @@
+/* thisis a comment */
+
+body {
+    background-image: url(img/oceansunset.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+#temple { 
+    /* #name - reference for id*/
+    position: absolute;
+    top: 400px;
+    left: 440px;
+    width: 985px;
+    height: 400px;
+    z-index: -1;
+    /*width: 100%;
+    height: 100%;*/
+}
+
+#temple2 { 
+    /* #name - reference for id*/
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 1425px;
+    height: 700px;
+}
+
+#wiki {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    height: 300;
+    width: 500px;
+    z-index: auto;
+    opacity: 0;
+}
+
+#container:hover #wiki {
+    opacity: 1;
+}

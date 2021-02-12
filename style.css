@@ -8,8 +8,8 @@ body {
 }
 
 a {
-    color:darkslategray;
-    background-color: papayawhip;
+    color:#2f4f4f;
+    background-color: #ffefd5;
     border: solid;
     border-width: 5px;
     border-radius: 20px;
@@ -69,4 +69,3 @@ a {
     z-index: auto;
    
 }
-
